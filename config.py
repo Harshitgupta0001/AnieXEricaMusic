@@ -6,24 +6,24 @@ from pyrogram import filters
 
 load_dotenv()
 
-API_ID = int(getenv("API_ID", ""))
-API_HASH = getenv("API_HASH", "")
+API_ID = int(getenv("API_ID", "25492855"))
+API_HASH = getenv("API_HASH", "61876db014de51a4ace6b169608be4f1")
 
-BOT_TOKEN = getenv("BOT_TOKEN", "")
+BOT_TOKEN = getenv("BOT_TOKEN", "6842691313:AAG3PGISowgTX2gntTqzJdKX9minPavTyxI")
 
-MONGO_DB_URI = getenv("MONGO_DB_URI", "")
+MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://Yash_607:Yash_607@cluster0.r3s9sbo.mongodb.net/?retryWrites=true&w=majority")
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 600))
 
-LOGGER_ID = int(getenv("LOGGER_ID", -1001971806089))
+LOGGER_ID = int(getenv("LOGGER_ID", -1002346166150))
 
-OWNERS = list(map(int, getenv("OWNERS", "7045191057 7137269276 2105971379").split()))
+OWNERS = list(map(int, getenv("OWNERS", "6359874284").split()))
 
-OWNER_ID = int(getenv("OWNER_ID", 7045191057))
+OWNER_ID = int(getenv("OWNER_ID", 6359874284))
 
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 
-HEROKU_API_KEY = getenv("HEROKU_API_KEY","HK543fklqxgt66hvxf")
+HEROKU_API_KEY = getenv("HEROKU_API_KEY","")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
